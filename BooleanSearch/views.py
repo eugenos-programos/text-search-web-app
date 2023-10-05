@@ -1,10 +1,11 @@
-import html2text
-import requests
-from bs4 import BeautifulSoup
-from django.shortcuts import render, redirect
-
-from BooleanSearch.models import Document, Search
-import trafilatura
+from django.shortcuts import render
+import os
+from BooleanSearch.models import Document, Search, Validation
+import time
+import datetime
+from .MetricCalculater import Metrics
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 def index(request):
@@ -29,36 +30,91 @@ def search_results(request):
 
 def refresh_database(request):
     Document.objects.all().delete()
-    print('here')
 
-    url_list = [
-        'https://arstechnica.com/gadgets/2023/09/raspberry-pi-5-available-for-preorder-is-faster-and-has-a-custom-i-o-chip/?comments=1',
-        'https://arstechnica.com/gadgets/2023/09/macos-14-sonoma-the-ars-technica-review/',
-        'https://arstechnica.com/gadgets/2023/09/raspberry-pi-5-available-for-preorder-is-faster-and-has-a-custom-i-o-chip/',
-        'https://arstechnica.com/science/2023/09/ai-is-getting-better-at-hurricane-forecasting/',
-        'https://arstechnica.com/health/2023/09/big-dairy-still-sour-over-plant-based-milk-labels-tries-to-outlaw-them/',
-        'https://arstechnica.com/information-technology/2023/09/jony-ive-and-openais-altman-reportedly-collaborating-on-mysterious-ai-device/',
-        'https://arstechnica.com/security/2023/09/china-state-hackers-are-camping-out-in-cisco-routers-us-and-japan-warn/',
-        'https://arstechnica.com/tech-policy/2023/09/google-deal-may-have-kept-apple-from-building-search-engine-exec-says/',
-        'https://arstechnica.com/gaming/2023/09/kerbal-space-program-2-has-a-big-pre-launch-issue-windows-registry-stuffing/',
-        'https://arstechnica.com/google/2023/09/smartphone-sales-down-22-percent-in-q2-the-worst-performance-in-a-decade/',
-        'https://arstechnica.com/gaming/2023/09/fifa-23-delisted-from-digital-stores-as-ea-sports-fc-24-launches/',
-        'https://arstechnica.com/information-technology/2023/09/spotify-tests-using-ai-to-automatically-clone-and-translate-podcast-voices/',
-        'https://arstechnica.com/tech-policy/2023/09/google-fights-to-hide-embarrassing-but-not-confidential-doj-trial-exhibit/',
-        'https://arstechnica.com/health/2023/09/how-climate-change-could-make-fungal-diseases-worse/'
-    ]
-    for url in url_list:  # category all articles on habr has 50 pages
+    data_folder_path = "data"
 
 
-        article_source_page = requests.get(url)
-        if article_source_page.status_code != 200:
-            print('Unable to get article', url)
-            continue
+    def generate_title(text):
+        import requests
 
-        text = trafilatura.fetch_url(url)
+        API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
+        headers = {"Authorization": "Bearer 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"}
 
-        if text is not None and text != 'None\n\n\n':
-                    Document.objects.update_or_create(title=url.split('/')[-2], url=url, text=text, snippet='')
-                    print('Got article: Title:', url.split('/')[-2], '. Url: ', url)
+        def query(payload):
+            status_code = 404
+            while status_code != 200:
+                response = requests.post(API_URL, headers=headers, json=payload)
+                status_code = response.status_code
+            return response.json()
+            
+        output = query({
+            "inputs": text + "Generate now theme on this text snipet",
+        })
+        return output[0]['summary_text']
+    
+    for file_name in os.listdir(data_folder_path):  
+        file_path = os.path.join(data_folder_path, file_name)
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+        lines = [line.replace('\n', '') for line in lines]
+        text = '.'.join(lines)
+        title = generate_title('.'.join(lines[:2])).split('.')[0]
+        Document.objects.update_or_create(title=title, url=file_name, text=text, snippet='', pattern='')
+        print(f'Got article: Title: {title}. File name: {file_name}')
+        time.sleep(1)
 
     return render(request, 'index.html')
+
+def validate(request):
+
+    tp = fp = tn = fn = 0
+    test_input_path = 'test/input'
+    test_output_path = 'test/output'
+
+    positions = [False] * 13
+
+    for idx, file_name in enumerate(os.listdir(test_input_path)):
+        input_file_name = os.path.join(test_input_path, file_name)
+        output_file_name = os.path.join(test_output_path, file_name)
+        with open(input_file_name, 'r') as inp_file:
+            text = inp_file.read().replace('\n', ' ')
+        with open(output_file_name, 'r') as out_file:
+            target = out_file.read().replace('\n', ' ')
+        new_search, _ = Search.objects.update_or_create(query=text)
+        results = new_search.search(new_search.query)
+        found_doc = False
+        empty_target = target == 'None'
+        for result in results:
+            if result.url == target:
+                tp += 1
+                positions[idx] = found_doc = True
+                break
+        if found_doc:
+            continue
+        if empty_target and not len(results):
+            tn += 1
+        elif empty_target and len(results):
+            fp += 1
+        else:
+            fn += 1
+        metric_calulater = Metrics(tp, tn, fp, fn)        
+
+    results, _  = Validation.objects.update_or_create(
+        date=datetime.datetime.now(),
+        recall=metric_calulater.getRecall(),
+        precision=metric_calulater.getPrecision(),
+        accuracy=metric_calulater.getAccuracy(),
+        error=metric_calulater.getError(),
+        Fmeasure=metric_calulater.getF_measure(),
+        avgPrecision=metric_calulater.getAveragePrecision(sum(positions), positions),
+    )
+
+    interpolated_precisions = metric_calulater.calculateInterpolatedPrecision(sum(positions), positions)
+
+    plt.plot(np.arange(0, 1.1, 0.1), interpolated_precisions, marker='o', linestyle='-')
+    plt.xlabel('Полнота')
+    plt.ylabel('Точность')
+    plt.title('11-точечный график полноты/точности')
+    plt.savefig('./Booleanplot.png')
+
+    return render(request, "validate.html", {'results': results})

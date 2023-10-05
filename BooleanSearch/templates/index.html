@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Boolean search - Home</title>
+    <title>Probabilistic search - Home</title>
 </head>
 <body align="center">
-<h2>Welcome to boolean text search application.</h2>
+<h2>Welcome to probabilistic text search application.</h2>
 <p>
 <form action="/search" method="post">
     {% csrf_token %}
@@ -17,6 +17,7 @@
 <p>
     <a href="/help" class="btn">Help</a>
     <a href="/refresh_database" class="btn">Refresh Database</a>
+    <a href="/validate" class="btn">Validate model</a>
 </p>
 </body>
 </html>

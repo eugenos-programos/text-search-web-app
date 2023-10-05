@@ -5,12 +5,16 @@
     <title>Search results</title>
 </head>
 <body>
-<h2>Search results for {{ query }}:</h2>
+<h2>Search results for <u>{{ query }}</u>:</h2>
+<hr></hr>
 {% if results %}
     {% for item in results %}
         <div>
             <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-            <p>{{ item.snippet }}</p>
+            <p>File - {{ item.url }}</p>
+            <p>Text snippet - "{{ item.snippet }}"</p>
+            <p>Pattern - "{{ item.pattern }}"</p>
+            <hr></hr>
         </div>
     {% endfor %}
 {% else %}

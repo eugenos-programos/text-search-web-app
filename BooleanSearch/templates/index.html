@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boolean search - Home</title>
+</head>
+<body align="center">
+<h2>Welcome to boolean text search application.</h2>
+<p>
+<form action="/search" method="post">
+    {% csrf_token %}
+    <label for="query">Query</label>
+    <input id="query" type="text" required value="" name="query">
+    <button type="submit">Search</button>
+</form>
+</p>
+<p>
+    <a href="/help" class="btn">Help</a>
+    <a href="/refresh_database" class="btn">Refresh Database</a>
+</p>
+</body>
+</html>

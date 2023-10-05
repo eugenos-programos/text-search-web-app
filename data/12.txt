@@ -1,0 +1,38 @@
+One of the most anticipated witnesses in the Department of Justice's antitrust trial over Google's search business was Apple executive Eddy Cue. But Cue, who testified this week for approximately four hours, publicly revealed very few details about the hotly debated deal between the two tech giants that set Google as the default search engine on Apple devices for the past two decades, The New York Times reported. He largely defended the deal as an obvious business choice for Apple.
+
+“I didn’t think at the time, or today, that there was anybody out there who is anywhere near as good as Google at searching,” Cue told the court. “Certainly there wasn’t a valid alternative."
+
+During Cue's approximately two hours of open court testimony, however, it was perhaps a passing remark from Cue that raised eyebrows the most.
+
+"Cue’s testimony included a passing reference to the possibility of Apple creating its own search engine if it couldn’t come to an agreement with Google," Big Tech on Trial reported. This possibility—that Google paid billions in revenue-sharing to shut down Apple as a search rival—was likely the subject of further testimony from Apple executives that was closed off to the public, Big Tech on Trial speculated, as it could demonstrate a major anticompetitive effect of Google's default search deals.
+
+Cue, who oversees Apple's main services and has a reputation for closing complex deals, testified that Apple and Google benefited from the deal, with Apple providing "great customers" to Google and Google providing an "amazing" search engine for Apple users.
+
+“It was in Google’s best interest and our best interest to get the deal done,” Cue told the court, according to the Times.
+
+For Apple, retaining Google as the default search leads to greater revenue sharing, which the DOJ suspects unfairly incentivizes Apple to lock users into Google's search engine. "The more money Google generates from search on iPhones, the more Apple makes," Bloomberg reported. An anonymous source told Bloomberg that "if Apple changes the interface to send less traffic to Google, it gets less revenue in return," and that "even if" Microsoft offered a better deal, Apple still wouldn't get as much revenue per search and would be unlikely to switch defaults to Bing.
+
+The DOJ argues that Google's default search deals helped Google maintain alleged monopoly power over search globally, and during the trial's first three weeks, there has been much debate over how difficult it is for users to switch from default search engines. At trial, Cue testified that "it’s not very complicated."
+
+"If you know how to set your Wi-Fi, you know how to switch your search," Cue said.
+
+At trial, the DOJ argued that Apple made it easy for users concerned about privacy to switch default map tools, but the company didn't seem to uphold the same privacy standards when it came to helping users switch away from default search engines. According to Big Tech on Trial, Cue argued that choosing maps is "completely" different from choosing search engines, partly because Apple strives to limit pre-loaded apps to provide the best "out-of-the-box" experience for users.
+
+During Cue's testimony, the DOJ also pointed out that a 2016 provision of Apple's deal with Google required that Apple defend the deal "should it come under any regulatory challenges," the Times reported.
+
+Apple's seeming obligation to defend the deal could color how the court views Cue's testimony. The Times reported that Cue said that the provision was "written in by lawyers for Apple and Google" and likely "pertained to an antitrust investigation in the European Union of Google."
+
+Neither Apple nor Google immediately responded to Ars' request for comment.
+
+Apple hides terms of Google search deal
+On Monday, Apple had petitioned the court to seal off Cue's testimony regarding terms of the Google default search deal, The New York Times reported. Lawyers told the court that Apple was worried that the DOJ would "blurt out" Apple's confidential business information.
+
+Because of Apple's petition, Tuesday's trial proceedings started with 45 minutes behind closed doors while both parties debated how much of Cue's testimony would be open to the public. Last week, Apple managed to seal off nearly all of the testimony from another senior executive, John Giannandrea, who also happened to be Google's former head of search and helped iron out the default search deal.
+
+Experts told the Times that the level of secrecy allowed in the Google antitrust trial is "unprecedented," with several agreeing the trial was "unusually opaque."
+
+Big Tech on Trial has estimated that half of the Google trial has been sealed off, but so far Apple seems to have been particularly successful in keeping its executives' testimony behind closed doors. While half of Cue's testimony was public, only 10 minutes of Giannandrea's was public, with the rest hidden away during the trial's first full day of sealed testimony.
+
+Not much has been reported about Giannandrea's testimony, but Bloomberg reported that Apple has begun making it easier for users to switch search engines on the recently released iOS 17.
+
+Apparently, Giannandrea told the court about "a quiet change in the latest iPhone software update that allows users to select a search engine other than Google’s when browsing the Internet in private mode" with "a single tap," Bloomberg reported. Giannandrea said that while users searching on Safari private mode will still default to Google, they will also be given a choice to tap once and switch to Yahoo, Bing, DuckDuckGo, or Ecosia for private browsing.

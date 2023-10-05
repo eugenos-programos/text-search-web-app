@@ -1,0 +1,3 @@
+"This VoIP technology can allow bad actors to make spoofed robocalls with minimal technical experience and cost," the FCC said.
+
+But under rules adopted by the FCC yesterday, VoIP providers will face some extra hurdles. They will have to "make robocall-related certifications to help ensure compliance with the Commission's rules targeting illegal robocalls," and "disclose and keep current information about their ownership, including foreign ownership, to mitigate the risk of providing bad actors abroad with access to US numbering resources," the FCC said.

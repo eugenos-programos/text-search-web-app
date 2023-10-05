@@ -1,0 +1,50 @@
+Sometimes, no matter what you think your level of expertise is, you need to follow the advice of others. I learned this lesson again while assembling the Priority E-Coast, a $1,999 electric beach cruiser from Priority Bicycles. Priority told me right there on the box. "Warning: Bicycle assembly should be performed or verified by a professional bicycle mechanic."
+Once I finished putting the E-Coast together, I was left with a gorgeous e-bike that was enjoyable to ride. But getting there involved more time and swearing than I'm used to. The good news is that Priority apparently heard the curses of its customers, as the part that made assembly miserable has been removed. So you might not need a pro bike tech after all.
+
+Unlike some e-bike manufacturers, which seem to have popped up out of nowhere in the last couple of years, Priority has been around since 2014, when it launched via Kickstarter. Nine years and two Kickstarters later, it has a robust lineup of motorized and human-powered bicycles.
+
+Fat tires and a cushy saddle make for a nice ride. The kickstand also rules.
+Enlarge / Fat tires and a cushy saddle make for a nice ride. The kickstand also rules.
+Eric Bangeman
+The E-Coast is aimed at the occasional recreational cyclist. It's a fixed-gear, Class 3 e-bike with a belt drive and hydraulic disc brakes. With its curvy lines and massive tan tires, the E-Coast hearkens back to when tail fins and whitewall tires were common sights on the road.
+
+Like the Tenways e-bike we reviewed earlier this year, the E-Coast has a Gates carbon drive belt. As someone who degreases and lubricates at least one bike chain at least every other week, a zero-maintenance belt drive is compelling. And it's a canny move for a beach cruiser—who wants to clean sand off the chain after a ride?
+
+Aside from the human atop the bike, the E-Coast is powered by a 500 W rear hub motor paired with a 576 Wh battery with a range of anywhere between 20 and 60 miles, depending on the assist level and heft of the rider, among other things. Unlike most e-bikes, the battery isn't integrated into the frame, instead sitting ensconced within the rear rack. From a serviceability standpoint, the battery location is a defensible choice, but it limits the E-Coast's utility. Neither my saddlebag nor my pannier would work with it. My saddlebag attached with straps and clips, and there wasn't enough space between the battery and rack to thread the straps. The clip on my pannier is designed for a smaller-gauge rack.
+
+Assembly required
+Priority provides all of the tools you'll need to assemble the E-Coast.
+Enlarge / Priority provides all of the tools you'll need to assemble the E-Coast.
+Eric Bangeman
+Assembling this one was not fun. I'm reasonably handy with bicycles—from start to finish, putting an e-bike together generally takes me 45 minutes to an hour. This one took me at least two hours due to a couple of factors.
+
+First, Priority includes very little in the way of written instructions. There's a lengthy manual, but it doesn't touch on assembly. Even a page with some lousy pictograms and mangled text that reads like it's been run through a translation tool three or four times would have been helpful. Instead, Priority has a 14-minute video that runs through the assembly process. I ended up watching one 10-second-or-so portion of the video repeatedly due to the second factor, a design choice by Priority.
+
+Installing that spring caused me to say many bad words. Priority must have heard me, as the revised E-Coast no longer has this part.
+Enlarge / Installing that spring caused me to say many bad words. Priority must have heard me, as the revised E-Coast no longer has this part.
+Eric Bangeman
+There was one part, a spring with attachment points on the head tube and down tube, that was maddening to deal with. Designed to restrict steering at very low speeds and help with handlebar swing when loaded up with front-handlebar accessories, attaching it meant messing with both the headlight and fender. It was difficult to get everything lined up correctly, as one adjustment would leave the headlight askew and another the fender slightly off-kilter. Aside from that one part, assembly was routine. But I could've done without that one part. And Priority has realized it, as its newest bikes don't have it.
+
+Going for a ride
+Out of the box, the E-Coast is configured as a Class 2 e-bike with a maximum pedal assist speed of 20 mph (32 km/h). As Class 2 e-bikes are legal just about everywhere, it's a smart move. If you live in an area where Class 3 e-bikes are okay, adjusting the max-assist speed on the E-Coast takes 15 seconds.
+
+Priority has kept the e-bike controls simple. There are three big buttons, which control the power and the five assist levels, next to an easy-to-decipher display that shows speed, mileage, assist level, and remaining charge. The throttle is on the right side of the handlebar and operates like a motorcycle throttle. Like most e-bikes, the E-Coast has hydraulic disc brakes, which I had to adjust due to some rubbing.
+
+The battery pack sits inside the rack, which limits the kind of bike bags you can attach to it. Note the power switch at the bottom left. You'll need to toggle this switch before turning the bike on.
+Enlarge / The battery pack sits inside the rack, which limits the kind of bike bags you can attach to it. Note the power switch at the bottom left. You'll need to toggle this switch before turning the bike on.
+Eric Bangeman
+Before heading out for a ride, turn on the power switch on the battery pack before powering up the bike. It's an odd design decision, one that I've not seen on another e-bike. Once powered up and on the road, the E-Coast is a gentle beast. Saddle and handlebar height dictate a very upright riding position, which I associate with slow, easy rides. Throwing an electric motor into the mix changes that dynamic, but it doesn't take long to adjust.
+
+There's no torque sensor in the E-Coast, so any pedal movement will keep the motor running. When looking to ride as fast as possible, I'd pedal as hard as I could until I was going fast enough and then would pedal lightly to keep the motor engaged and speed consistent. The only downside to the E-Coast's motor setup is a small lag between your first few pedal strokes and the motor kicking in to push you along. Like the Cafe Cruiser we reviewed last year, the upright riding position doesn't lend itself to the kind of hard pedaling needed to bring the E-Coast up to speed. With motor off, getting up to 12 mph felt like an accomplishment. Pedaling as hard as I could, it took me about three blocks to get up to 26 mph with assist maxed out. This is not a speed demon.
+
+The display is easy to read, although the viewing angle can be tough in bright sunlight given the upright riding position.
+Enlarge / The display is easy to read, although the viewing angle can be tough in bright sunlight given the upright riding position.
+Eric Bangeman
+Given the bike's weight (56 lbs/25 kg) and the aluminum frame's rigidity, I had visions of a harsh ride on crappy pavement. The E-Coast surprised me. But my favorite gravel path didn't faze the bike at all. Those 3-inch tires and a massively padded seat offer a much more comfortable and compliant ride than I expected.
+
+How practical is this bike, anyway?
+Practicality can be a tough question to answer, as every rider has a different e-bike checklist. The E-Coast is a great beach cruiser, especially with the carbon belt drive. It could also be a commuter bike, but there are better and cheaper options, like the Velotric T1.
+
+There's some potential as a kind of lightweight cargo bike. The rear rack can handle up to 50 lbs/23 kg of cargo, but the massive battery pack limits what you can do with it.
+
+The best use case for the E-Coast is just riding around town. I really enjoyed just hopping on and bopping around my suburb. If you're looking for a purely recreational e-bike for leisurely rides around town or along a sandy beach, the E-Coast fits the bill beautifully. Anything beyond that is a stretch for this beach cruiser.

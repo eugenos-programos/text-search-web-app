@@ -1,0 +1,74 @@
+The third week of the Department of Justice's antitrust trial probing Google's search business kicked off this week with a small win for public access to the trial's secretive proceedings. Yesterday, judge Amit Mehta ruled that at the end of each day, trial documents can be posted online, Bloomberg reported, promising public access "as soon" as possible to trial documents—including likely one email that Google considered "embarrassing."
+
+Mehta's ruling ended a week of confusion and public outcry after the DOJ hastily removed public exhibits from a website sharing updates from the trial.
+
+Much of the trial is already blocked from public view—with documents heavily redacted and hours of testimony sealed. Nearly two-thirds of Google's responses and motions in the case have been sealed, The New York Times estimated.
+
+To critics, the DOJ removing public trial exhibits risked obscuring what little available information the public has, making it even harder to follow the DOJ's case alleging Google's monopoly over search.
+
+Last week, Mehta had suggested that Google and the DOJ reach an arrangement to decide how documents could be shared. On Monday, both parties filed a joint submission where the only remaining dispute was over how quickly the documents could be posted online. The DOJ wanted to post the documents at the end of each trial day, whereas Google wanted 24 hours to review exhibits for possible redactions that the DOJ allegedly neglected to make.
+
+The DOJ recommended that the court reject Google's request because members of the public attending the hearing would have already seen unredacted exhibits. Plus, "Google and third parties will have already had the opportunity to review and seek redactions to any exhibit being used in open court," the DOJ said.
+
+"Google seeks to inject unnecessary, duplicative process to delay and further frustrate the public’s access to admitted exhibits," the DOJ argued. "There exists no basis for preventing the public from accessing admitted exhibits the public has already seen and contain material the parties have already reviewed for confidentiality and already agreed can be shown to the public in open court."
+
+But Google argued that the DOJ has already made errors, mistakenly not redacting information in trial documents that were immediately posted online and then screenshotted and shared far and wide on Twitter. The tech giant argued that a 24-hour window would give Google time to protect against "irreversible breaches of information that the parties have agreed should remain confidential."
+
+Ultimately, Mehta ruled that "Google and any third-parties would have until 9 pm each evening to object to the public release of an exhibit used during the trial," The Times reported. The DOJ "should aim to resolve any objections by the next business day," Mehta said.
+
+According to The Times, Mehta hopes this results in fast, consistent public access to the latest trial exhibits.
+
+“I would like both sides to be in a position to post as soon as it is reasonable to do so,” Mehta said.
+
+As of this writing, the DOJ has not yet re-uploaded any of the trial exhibits, but last week, Bloomberg posted more than a dozen exhibits that had been removed from the DOJ's website. Google told the court that news sites re-uploading documents containing commercial information that should have been redacted is proof that "any breach of confidentiality on the Internet—even if inadvertent— becomes permanent."
+
+Google’s request put judge “in a pickle”
+Last week, Bloomberg published more than a dozen public exhibits that Google argued the public shouldn't have access to from the Department of Justice's 10-week antitrust trial examining Google's search business. The DOJ had removed those exhibits from its website after Google complained to the court that the DOJ was sharing trial exhibits online.
+
+“Just so we understand what’s at stake here, every document [the DOJ's lawyers] push into evidence they post on their website, and it gets picked up far and wide,” Google lawyer John Schmidtlein said in an objection raised on Tuesday. The dramatic moment followed sealed testimony from Google’s vice president for finance, Michael Roszak, regarding a document that Google claimed was "embarrassing" and Roszak claimed was “full of hyperbole and exaggeration," Bloomberg reported.
+
+“This isn’t a business record, and it’s totally irrelevant to these proceedings,” Schmidtlein argued.
+
+According to Big Tech on Trial reporter Yosef Weitzman, Judge Amit Mehta "didn’t know DOJ was doing this" and the DOJ apologized and took down all the exhibits on its website tracking updates in the trial.
+
+“That’s something I wish I’d been told,” Mehta said. “I think a judge is told before evidence in the record is actually put on a publicly available website.”
+
+However, Bloomberg reported, Mehta also acknowledged that "once it’s admitted into evidence, in fairness, it is a public document." Even though Google considered Roszak's email "embarrassing," Mehta said that it "doesn’t contain anything confidential." Mehta said Google put him "in a pickle" by insisting that Roszak's testimony be confidential so that the public wouldn't understand the full context of the "embarrassing" email.
+
+Bloomberg reporter Leah Nylen posted about the dramatic courtroom exchange on X, saying that she was one of only two reporters left in the courtroom. Nylen said that she quickly "objected and asked that Bloomberg have an opportunity to have a lawyer present to argue for continued public access."
+
+Judge Mehta said that he would make a final ruling last Wednesday, but "in the meantime," Nylen noted that "all the documents that have been released" by the DOJ were "pulled back" and "the Justice Department's page" was "no longer online," at least temporarily. That website is currently accessible again, but Bloomberg reported that "emails, charts and internal presentations" are still unavailable to the public, and Mehta still hasn't made his ruling on whether the DOJ can resume sharing any new exhibits. Defending public access, Bloomberg published all the exhibits the DOJ posted so far, which include Google's presentation on "Antitrust Basics for Search Team" and emails from Google's chief economist, Hal Varian.
+
+
+
+Civil rights groups tracking the trial have previously criticized Mehta for protecting Google's privacy over the public's interest. And in the trial's first week—as the DOJ claimed Google was hiding evidence by training employees to avoid words monopolists use in office communications—Mehta allowed Google to seal off testimony from a Verizon executive despite the DOJ's objections. The DOJ seems increasingly concerned that blocking public access to key facts in the trial establishing Google's alleged monopoly might hurt its case.
+
+Nylen noted that Google "has its own website where they'd been posting exhibits," and Weitzman noted that Mehta "wasn’t necessarily opposed" to either party sharing exhibits since "they were a part of the public record as long as they were submitted." Weitzman said the DOJ suggested a compromise: "providing the exhibits it wants to post to Google 24 hours before they went up."
+
+For now, "the exhibits remain offline and the court hasn’t said when or whether they will be reposted," Bloomberg reported.
+
+The competition director for the Electronic Frontier Foundation (EFF), Mitch Stoltz, told Ars that he was surprised that Google and the DOJ didn't reach an agreement on which documents could be shared with the public ahead of the trial since this issue is common in antitrust trials.
+
+Competition expert: “The public should have access”
+Public access to the trial has been a point of contention because the DOJ's case against Google is unique and could have far-reaching consequences, potentially disrupting how people access information online. If the DOJ wins, Mehta might order the breakup of Google's businesses, possibly enabling Google's competitors to attract more search users away from Google than ever before.
+
+Google has argued that could be a bad thing—depriving Google of data and making it harder for it to update its popular search engine. The company has claimed since 2020 that "this lawsuit would do nothing to help consumers. To the contrary, it would artificially prop up lower-quality search alternatives, raise phone prices, and make it harder for people to get the search services they want to use."
+
+But the DOJ argues it would be a good thing. Leveling the playing field could motivate Google to expand privacy protections to compete for users and lead to other innovations in search across the board, the DOJ has claimed.
+
+Earlier this month, Google accused the DOJ of fighting "to promote the welfare of competitors rather than consumers" when evidence allegedly shows that Google wins default search contracts due to the quality of its search engine. "We invest billions of dollars in R&D and make thousands of quality improvements to Search every year to ensure we’re delivering the most helpful results," Google argued in a blog post.
+
+When the DOJ first filed its antitrust lawsuit against Google, the EFF's Stoltz wrote that the trial marked the DOJ's first attempt to treat "consumer privacy as an aspect of product quality, such that overcollection and misuse of customers’ personal information by a monopolist can be evidence of harm to consumer welfare, the touchstone of modern antitrust law."
+
+Stoltz told Ars it's "understandable" that Google wants to keep some documents and testimony "off limits" to the public since any antitrust case "scrutinizes every aspect of a business." But he also said "the public should have access" because this case is "about conduct that affects billions of people, and it's new legal territory to some degree."
+
+"Honestly, I think Judge Mehta understands that," Stoltz told Ars, suggesting that the court would likely find a compromise. Mehta granting the DOJ's suggestion of giving Google 24 hours' notice before sharing documents online could be a good compromise, Stoltz told Ars, because the public seeing "everything right away is going to be less important" over the course of a long trial.
+
+Advocates tracking Google’s “dirty tricks”
+The DOJ isn't the only one concerned that the public may not fully understand what's at stake in the trial without access to evidence of harms. The American Economic Liberties Project (AELP)—which formed a coalition with other digital and civil rights groups to track updates in the trial—created a "Google Dirty Tricks Tracker," monitoring what the coalition views as Google's sketchiest moves to dodge public accountability during the trial.
+
+AELP's coalition has repeatedly urged the court to broaden public access to the proceedings, largely to no avail so far.
+
+“The public has a very real stake in this case, and neither Google nor the Court should be allowed to shroud it in secrecy," Katherine Van Dyck, AELP's senior counsel, said in a press release ahead of the trial.
+
+Van Dyck, who is attending much of the trial, told Ars last Wednesday that "there has been a lot of confusion in the last 24 hours surrounding exhibits in the Google Search trial. That is in no small part the result of Google using all its might to keep things under seal, block public access, and conceal its bad behavior from public scrutiny. At the end of the day, as Judge Mehta pointed out yesterday, exhibits admitted into evidence are public records, and we hope that DOJ can continue making them more easily accessible as this trial moves forward."

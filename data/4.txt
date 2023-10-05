@@ -1,0 +1,70 @@
+Two weeks ago, the US Copyright Office refused to register a copyright for Théâtre D'opéra Spatial, an AI-generated image that got widespread media attention last year after it won an art competition. It’s at least the third time the Copyright Office has ruled that AI-generated art cannot be copyrighted.
+
+The Copyright Office first ruled on this issue in 2019. Artist Stephen Thaler tried to register an image that he said had been created entirely by a computer program. The Copyright Office rejected the application because copyright protection is only available for works created by human beings—not supernatural beings (like the Holy Spirit), not animals (like this now-famous monkey), and not computer programs.
+
+The ruling raised an important question: Was the issue just that Thaler should have listed himself, rather than his AI system, as the image's creator? Or is AI-generated art categorically excluded from copyright protection?
+
+In recent months, the Copyright Office has endorsed this second view. In February, it canceled the registration of a comic book called Zarya of the Dawn that contained AI-generated images. Then on September 5, the office rejected the copyright for Théâtre D'opéra Spatial, holding that it “was not the product of human authorship” because it had been created by the AI software Midjourney.
+
+I don’t think these more recent decisions are going to age well.
+
+“The copyright office's position follows fairly logically from what they've staked out,” Cornell University copyright scholar James Grimmelmann told me. “And that follows fairly logically from existing copyright doctrine or theory.”
+
+At the same time, Grimmelmann said, “I don't see this approach being scalable. It seems like a quagmire.”
+
+Lessons from photography
+In the 1880s, courts were deciding how copyright law should handle the then-new technology of photography. Some people argued that photographs shouldn’t receive copyright protection at all. Copyright is supposed to cover creative works, and a camera just mechanically captures images of whatever it’s pointed at.
+
+A photographer named Napoleon Sarony took a photo of Oscar Wilde and later sued a company that republished it without permission. The case went all the way to the US Supreme Court, which ruled in 1884.
+
+The nation’s highest court acknowledged that “ordinary” photographs may not merit copyright protection because they may be a “mere mechanical reproduction” of some scene.
+
+By contrast, the court said the Wilde photograph reflected Sarony’s “original mental conception,” which he had brought to life by “posing Oscar Wilde in front of the camera, selecting and arranging the costume, draperies, and other various accessories in said photograph, arranging the subject so as to present graceful outlines, arranging and disposing the light and shade, suggesting and evoking the desired expression.”
+
+So even though a mechanical process captured the image, it nevertheless reflected creative choices by the photographer, and therefore deserved copyright protection.
+
+This ruling is still good law today, and the Copyright Office cited it in its February ruling rescinding copyright protection for Zarya of the Dawn. But there are two different ways to read this century-old precedent. And in my view, the Copyright Office picked the wrong reading.
+
+The Copyright Office concluded that using AI to generate art was a “merely mechanical” process with “no place for novelty, invention, or originality”—and hence not worthy of copyright protection. But I don’t think this makes sense given how copyright law has treated photographs over the last 130 years.
+
+After all, if you read the Sarony ruling literally, it suggests that many photographs shouldn’t get copyright protection. Landscape photographers, for example, don’t decide the position of the sun, the shape of clouds, or the color of trees. Yet landscape photos can be copyrighted.
+
+Or consider the time an Associated Press photographer, Mannie Garcia, snapped a photo of then-Sen. Barack Obama listening to George Clooney during a 2006 panel discussion. Two years later, artist Shepard Fairey used Garcia’s photo as the basis for an illustration called “Obama Hope” that was ubiquitous during the 2008 presidential campaign.
+
+When the AP learned Fairey had based his work on an AP photo, it demanded compensation. Fairey sued the AP, asking for a ruling that he had not infringed the photo. The lawsuit argued that Fairey’s use of the photo was allowed under copyright’s fair use doctrine.
+
+But notably, Fairey didn’t argue that the photograph wasn’t eligible for copyright at all—probably because that argument would have been laughed out of court. Everyone agrees that a photograph like Garcia’s is eligible for copyright—even though Garcia did not pose Obama in front of the camera, select or arrange Obama’s clothes, set up the background or lighting, or suggest what expressions Obama should make.
+
+Garcia just recognized a compelling shot of Obama and captured a high-quality image. And under US copyright law, that’s enough creativity to merit copyright protection.
+
+Photographers “choose where to point the camera, when to snap the image, and how to adjust a bunch of camera settings,” Grimmelmann told me. “We settled into the idea that a photographer owns the copyright in the resulting photograph.”
+
+A better approach
+In my view, the Copyright Office should think about AI-generated art in the same way. Just as a photographer walks around a city or forest looking for compelling scenes to photograph, so an AI artist explores the “latent space” of images a tool like Midjourney can produce. In a literal, pixel-by-pixel sense, images are produced by the software, not the artist. But the important point is that there is a human being making creative judgments about where to explore and what images to capture when they get there.
+
+Jason Allen, the artist who created Théâtre D’opéra Spatial, experimented with 624 different prompts as he explored Midjourney’s latent space in search of the perfect image. Strangely, the Copyright Office seems to hold this against Allen in its decision:
+
+It is the Office’s understanding that, because Midjourney does not treat text prompts as direct instructions, users may need to attempt hundreds of iterations before landing upon an image they find satisfactory. This appears to be the case for Mr. Allen, who experimented with over 600 prompts before he “select[ed] and crop[ped] out one ‘acceptable’ panel out of four potential images … (after hundreds were previously generated).” As the Office described in its March guidance, “when an AI technology receives solely a prompt from a human and produces complex written, visual, or musical works in response, the ‘traditional elements of authorship’ are determined and executed by the technology—not the human user.” 
+
+This might make sense if you assume that those 600 prompts were completely random. But of course Allen’s prompts weren’t random. The results of each prompt can provide inspiration for the next one, allowing the artist to refine his creative vision over time.
+
+Banning AI copyrights will be unworkable
+Imagine if the Copyright Office started taking the Sarony precedent literally and began denying copyright registrations for photos it judged insufficiently creative. The result would be a massive paperwork burden for professional photographers and the Copyright Office.
+
+Photographers would have to submit detailed descriptions of how they staged the scenes they photographed. Did the model bring their own clothes or were they supplied by the photographer? How much time did the photographer spend setting up the background and lighting? Did the photographer suggest poses and expressions for the model, or did the model come up with them independently?
+
+This would be a waste of time for everyone involved. And the same is true for AI-generated art.
+
+When a human artist creates a partially AI-generated work, the Copyright Office wants the artist to disclose this fact in their registration and disclaim ownership over the AI-generated portion. The office claims that this will be a simple procedure—that the application can include a simple statement like “[description of content] generated by artificial intelligence.”
+
+Supposedly, if an artist disclaims ownership over the AI-generated portions of her work, they can still get copyright protection for the human-created portions. But there are a couple of big problems with this.
+
+One is that there’s no clear definition of artificial intelligence. For example, Photoshop includes a growing number of features that could be characterized as AI-based. Will artists need to disclaim copyright if they use some of these tools? It’s unclear—and could take years of litigation to sort out.
+
+The Copyright Office’s rule will also create an incentive for digital artists to lie about how their work is created, which in turn will put all digital artwork under suspicion. If artists want their work to stand up in court, they may need to start carefully documenting their creative process so they can prove that their work was made without AI.
+
+Most importantly, the Copyright Office’s rule could pointlessly discourage artists from using AI in their creative process. If AI-created work can’t be copyrighted, artists will be financially incentivized to stick to older techniques, potentially depriving the world of creative works that can only be created with the latest technology.
+
+A better path would be for the Copyright Office to take the same approach to AI that it does for photography: to recognize that AI-generated works can be the result of human creativity even if, in a literal, pixel-by-pixel sense, they are generated by a machine.
+
+Tim Lee was on staff at Ars from 2017 to 2021. He recently launched a new newsletter, Understanding AI. It explores how AI works and how it's changing our world. You can subscribe to his newsletter here.

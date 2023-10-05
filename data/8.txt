@@ -1,0 +1,26 @@
+On Monday, Spotify rolled out a limited pilot program that uses AI to automatically translate podcasts into various languages, using voice synthesis technology from OpenAI to preserve the original speaker's voice. The feature aims to offer a more authentic listening experience compared to traditional dubbing. It could also introduce language errors that are difficult for non-native speakers to detect, since machine translation is far from a perfect technology.
+
+FURTHER READING
+Microsoft’s new AI can simulate anyone’s voice with 3 seconds of audio
+In its press release announcing the program, Spotify says it is a platform that allows creators to share their work around the world. Then it asks a question: "With recent advancements, we’ve been wondering: Are there more ways we can bridge the language gap so that these voices can be heard worldwide?"
+
+Spotify's answer is Voice Translation, which can reportedly translate English voices into Spanish, French, and German while retaining the distinctive vocal characteristics of the speaker. The feature is currently being used with only select podcasters, such as Dax Shepard, Monica Padman, Lex Fridman, Bill Simmons, and Steven Bartlett.
+
+"We believe that a thoughtful approach to AI can help build deeper connections between listeners and creators, a key component of Spotify's mission to unlock the potential of human creativity," said Ziad Sultan, Spotify's VP of personalization, in the announcement.
+
+Spotify says the translated episodes will be available worldwide to both Premium and Free users. Users can access the translations via Spotify's "Now Playing View" for supported episodes or a dedicated Voice Translations Hub that will continue to add more translated content.
+
+On X, Lex Friedman posted a sample of his voice cloned and translated into Spanish, writing, "This is me speaking Spanish, thanks to amazing work by Spotify AI engineers. The translation & voice-cloning are fully done by AI. Language can create barriers of understanding & thus fuel division. I can't wait for AI to break down this barrier & reveal our common humanity."
+
+Lost in translation
+But not all podcasters are excited about the potential for automated AI translations. Reacting to the news on BlueSky, Retronauts co-creator and co-host Jeremy Parish posted, "Another reason to roll my eyes when people ask why we don’t make the podcast available on Spotify."
+
+In the past, we've seen voice-cloning technology from both Microsoft and Meta analyze samples of source audio, then augment that audio with a large training data set of voices to synthesize a new, similar voice. That technology can potentially fail when a person's vocal style isn't represented well in the data set of training samples, especially with certain accents.
+
+Here, Spotify is adding an additional layer of complexity, hoping to seamlessly translate meaning between languages without making mistakes, something Meta has also attempted with SeamlessM4T. Over the past decade, AI-driven translation has made big strides, but it hasn't knocked human translators completely out of the game. Industry experts point out that these systems still get tripped up on nuance and don't understand cultural context, affecting the quality of the translated material.
+
+FURTHER READING
+“AI took my job, literally”—Gizmodo fires Spanish staff amid switch to AI translator
+Tech-savvy users likely expect translation mistakes when the source is properly framed as a machine translation, but when the mistakes come in the podcaster's own voice, it may add a new dimension of trouble, especially if the translated audio is taken out of context and later presumed to be original. Additionally, if the original speaker doesn't know the translated language, they can't check to see if the translation accurately reflects their original intentions. That's putting a lot of trust—and personal reputation—in the hands of unproven automation technology.
+
+For now, it appears that Spotify's program is working on a limited, opt-in basis among select podcasters only, so issues of consent over cloning podcast guest voices don't appear to be at play unless this rolls out more widely. Going forward, Spotify says it hopes to gather feedback from creators and listeners to refine the voice translation feature. However, with over 100 million regular podcast listeners on the platform, that's 100 million ways this experiment could go poorly if the translation technology makes embarrassing mistakes.

@@ -1,0 +1,31 @@
+In one of its many attempts to curb robocalls, the Federal Communications Commission said it is making it harder for Voice over Internet Protocol (VoIP) providers to obtain direct access to US telephone numbers.
+
+Robocallers make heavy use of VoIP providers to bombard US residents with junk calls, often from spoofed phone numbers. Under the rules in place for most of the past decade, VoIP providers could easily gain access to US phone numbers.
+
+"This VoIP technology can allow bad actors to make spoofed robocalls with minimal technical experience and cost," the FCC said.
+
+But under rules adopted by the FCC yesterday, VoIP providers will face some extra hurdles. They will have to "make robocall-related certifications to help ensure compliance with the Commission's rules targeting illegal robocalls," and "disclose and keep current information about their ownership, including foreign ownership, to mitigate the risk of providing bad actors abroad with access to US numbering resources," the FCC said.
+
+The FCC order will take effect 30 days after it's published in the Federal Register. A public draft of the order was released ahead of the FCC meeting.
+
+Current system provides easy access
+"It was eight years ago that this agency decided to allow interconnected VoIP providers to obtain telephone numbers directly from our numbering administrator. Before that, they could only get numbers by making a request through a traditional carrier," FCC Chairwoman Jessica Rosenworcel said in a statement for yesterday's commission meeting.
+
+Simplifying the system had benefits but also unintended consequences, Rosenworcel said:
+
+Too often the providers picking up these numbers en masse are the same folks using VoIP technology to facilitate robocalls. So in the interest of curbing these bad actors, we are adopting new guardrails. We are putting conditions on direct access to numbering resources to make sure we do not hand out numbers to perpetrators of illegal robocalls. This will safeguard our numbering resources, make life harder for those who want to send us junk calls and a little easier for all of us who don't like getting them.
+
+The current rules that will be replaced "do not require interconnected VoIP providers to disclose any information about their ownership or affiliation, nor do they specify a process to evaluate applications with substantial foreign ownership," the FCC said. The new ownership disclosure rule "will assist Bureau staff in their existing practice of identifying applications that require further review to determine whether the direct access applicant's ownership, control, or affiliation raises national security and/or law enforcement concerns," according to the order.
+
+The FCC said applicants must also certify to their compliance with other rules applicable to interconnected VoIP providers and "comply with state laws and registration requirements that are applicable to businesses in each state in which numbers are requested."
+
+While the rule change applies to new applicants seeking direct access to numbering resources, the FCC is also taking public comment on a proposal that would "requir[e] existing direct access authorization holders whose authorizations predate the new application requirements to submit the new certifications, acknowledgments, and disclosure." The FCC adopted yesterday's order unanimously, saying that it is consistent with requirements in the TRACED Act (Telephone Robocall Abuse Criminal Enforcement and Deterrence) adopted by Congress in 2019.
+
+Bad actors “set up shop under a new name”
+Yesterday's order came two days after the FCC took action against a gateway phone company accused of routing many illegal robocalls from outside the US to consumer phone companies like Verizon. The company, One Owl Telecom, is on the verge of having all its calls blocked by US-based telcos after being accused of ignoring orders to investigate and block the robocalls.
+
+One Owl's operators were connected with two previous companies that were punished by the FCC for similar offenses. The case illustrates challenges faced by the FCC when enforcing robocall rules against companies with foreign operators and opaque structures. Describing One Owl, the FCC said the company's efforts "to operate under the cloak of ever-changing corporate formations to serve the same dubious clientele demonstrate willful attempts to circumvent the law to originate and carry illegal traffic."
+
+"Right now, it is very easy for bad actors who get caught facilitating illegal robocalls to set up shop under a new name and carry on with business as usual, and these rules will make it harder to do that," Nicholas Garcia, policy counsel for consumer-advocacy group Public Knowledge, told Ars.
+
+Garcia noted that "false or fraudulent registration and compliance reports would be an obvious way for the most dedicated bad actors to circumvent these new rules. But that itself may provide new avenues for enforcement, and more requirements and friction raise the cost and risks" for VoIP operators that don't follow the rules

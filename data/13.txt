@@ -1,0 +1,19 @@
+Nearly everything on the Raspberry Pi 5 has improved over the 4 model, particularly the way you can buy it. In a first for the single-board company, the 5 is available for preorder today from approved resellers before it's generally available by the end of October.
+
+Perhaps most importantly, the 5 is being prioritized for individual buyers rather than commercial partners.
+
+"We’re incredibly grateful to the community of makers and hackers who make Raspberry Pi what it is; you’ve been extraordinarily patient throughout the supply chain issues that have made our work so challenging over the last couple of years," writes Raspberry Pi founder and CEO Eben Upton. "We’d like to thank you: we’re going to ringfence all of the Raspberry Pi 5s we sell until at least the end of the year for single-unit sales to individuals, so you get the first bite of the cherry."
+
+Print subscribers to The MagPi and HackSpace magazines get "Priority Boarding" for Pi 5 purchases, including those who subscribe now. Raspberry Pi says it has reserved "a massive stock" of 5 units for subscribers, shipping them at launch to those with a code.
+
+
+We thank Raspberry Pi for including this "no talking" introduction video in their Pi 5 rollout. The talky version is here.
+The Pi 5 has a number of improvements beyond the base AP and GPU, though those aren't small jumps, either. The company says its new 16-nanometer BCM2712, a 2.4 GHz quad-core 64-bit CPU, is two to three times faster than the BCM2711 in the Pi 4. The new core—three generations beyond the Pi 4's A72—a smaller process, and a higher clock speed make for a faster Pi 5 that eats less power, Upton writes. The GPU is a Broadcom VideoCore VII, capable of driving dual 4K/60 Hz HDMI displays, and it comes with open source Mesa drivers.
+
+There's also a new chip on the Pi 5, built by Pi, to take away I/O functions from the AP. The RP1 will handle two USB 3.0 and two 2.0 interfaces, a Gigabit Ethernet controller, camera and display interfaces, and GPIO, with all of it connected back to the AP by PCI Express. Many Pi users face frustrations with storage and data connections before they hit the limits of the board's chips; this could open the Pi 5 to more general-purpose computing and other interesting tasks than its predecessors. Given that Pi has spent $15 million developing the RP chip platform, it really should.
+
+There is one notable change on the peripheral side, however: the Pi 5 will lower power output to USB peripherals down to 600 mA under heavy workloads when using a typical 15-Watt USB-C connector, lower than the 1.2-Amp limit on the Pi 4. If you want to keep high-power drives attached, a $12 USB-C power adapter supports a 25 W mode and should open up things a bit for overclockers.
+
+Among the other changes, the Pi 5 loses a composite video and analog audio jack, adds two FPC connectors that are camera and display-friendly four-lane MIPI interfaces, and moves the Ethernet jack back to the bottom-right board corner. Pi also added two mounting holes for heat sinks to the board. There's also a new case that adds a low-noise fan, offers an optional active cooler for heavy workloads, and makes it possible to add the board with the micro SD card still inserted. That last bit will likely prevent a handful of first-time user disasters, we'd reckon.
+
+The Pi 5 is due to ship by the end of October. Raspberry Pi OS should arrive in mid-October and will be the only first-party OS for the board upon launch.

@@ -7,4 +7,5 @@ urlpatterns = [
     path('refresh_database', views.refresh_database, name='refresh database'),
     path('help', views.help, name='help'),
     path('search', views.search, name='search'),
+    path('validate', views.validate, name='validate')
 ]

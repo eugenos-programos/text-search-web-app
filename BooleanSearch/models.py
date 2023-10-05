@@ -9,22 +9,40 @@ class Document(models.Model):
     text = models.TextField(null=True, default='Sample text.')
     snippet = models.CharField(max_length=300, null=True, default='Sample snippet.')
     url = models.CharField(max_length=1000, null=True)
+    pattern = models.CharField(max_length=1000, null=True, default='None')
 
 
 class Search(models.Model):
     query = models.CharField(max_length=1000, null=True, default='Query')
 
     def search(self, query):
-        eldar_q = Query(query, ignore_case=True, match_word=False)
-        match = re.search('[a-zA-Z]+', query)
 
         result = {}
         documents = Document.objects.all()
         for document in documents:
-            if find_near_matches():
-                i = document.text.find(match.group())
-                snippet = document.text[max(0, i - 100):min(i + 100, len(document.text))]
-                document.snippet = snippet
-                result[document] = 1
+            for match in find_near_matches(query, document.text, max_l_dist=1):
+                window_size = 50
+                pattern = match.matched
 
+                text = document.text
+                start_text_index = text.find(pattern) if text.find(pattern) != -1 else window_size
+                end_text_index = start_text_index + len(pattern)
+
+                start_window_index = start_text_index - window_size if start_text_index - window_size > 0 else 0
+                end_window_index = end_text_index + window_size if end_text_index + window_size < len(text) else len(text) - 1
+                snippet = text[start_window_index:end_window_index]
+
+                document.snippet = snippet
+                document.pattern = pattern
+                result[document] = 1
         return result
+
+
+class Validation(models.Model):
+    date = models.DateTimeField()
+    recall = models.FloatField()
+    precision = models.FloatField()
+    accuracy = models.FloatField()
+    error = models.FloatField()
+    Fmeasure = models.FloatField()
+    avgPrecision = models.FloatField(default=0.)

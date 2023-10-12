@@ -73,12 +73,12 @@ WSGI_APPLICATION = 'boolean_search.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'boolsearch',
-        'USER': 'boolsearch',
-        'PASSWORD': 'boolsearch',
+        'USER': 'root',
+        'PASSWORD': 'sql_pass',
         'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'PORT': '3306',
     }
 }
 

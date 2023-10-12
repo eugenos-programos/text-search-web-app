@@ -8,7 +8,7 @@ class Document(models.Model):
     title = models.CharField(max_length=1000, null=True, default='Title')
     text = models.TextField(null=True, default='Sample text.')
     snippet = models.CharField(max_length=300, null=True, default='Sample snippet.')
-    url = models.CharField(max_length=1000, null=True)
+    url = models.CharField(max_length=100, null=True)
     pattern = models.CharField(max_length=1000, null=True, default='None')
 
 

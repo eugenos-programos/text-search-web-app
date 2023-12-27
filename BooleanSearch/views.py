@@ -1,5 +1,6 @@
 from django.shortcuts import render
 import os
+from django.http import HttpResponse
 from BooleanSearch.models import Document, Search, Validation
 import time
 import datetime
@@ -38,7 +39,7 @@ def refresh_database(request):
         import requests
 
         API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-        headers = {"Authorization": "Bearer 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"}
+        headers = {"Authorization": "Bearer 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"}
 
         def query(payload):
             status_code = 404
@@ -72,7 +73,6 @@ def validate(request):
     test_output_path = 'test/output'
 
     positions = [False] * 13
-
     for idx, file_name in enumerate(os.listdir(test_input_path)):
         input_file_name = os.path.join(test_input_path, file_name)
         output_file_name = os.path.join(test_output_path, file_name)
@@ -99,15 +99,19 @@ def validate(request):
             fn += 1
         metric_calulater = Metrics(tp, tn, fp, fn)        
 
-    results, _  = Validation.objects.update_or_create(
-        date=datetime.datetime.now(),
-        recall=metric_calulater.getRecall(),
-        precision=metric_calulater.getPrecision(),
-        accuracy=metric_calulater.getAccuracy(),
-        error=metric_calulater.getError(),
-        Fmeasure=metric_calulater.getF_measure(),
-        avgPrecision=metric_calulater.getAveragePrecision(sum(positions), positions),
-    )
+    try:
+        results, _  = Validation.objects.update_or_create(
+            date=datetime.datetime.now(),
+            recall=metric_calulater.getRecall(),
+            precision=metric_calulater.getPrecision(),
+            accuracy=metric_calulater.getAccuracy(),
+            error=metric_calulater.getError(),
+            Fmeasure=metric_calulater.getF_measure(),
+            avgPrecision=metric_calulater.getAveragePrecision(sum(positions), positions),
+        )
+    except ZeroDivisionError as exc:
+        return render(request, "error_metric.html")
+
 
     interpolated_precisions = metric_calulater.calculateInterpolatedPrecision(sum(positions), positions)
 
